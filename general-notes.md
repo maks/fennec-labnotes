@@ -12,5 +12,8 @@
 * [FF extensions built from greasemonkey scripts](http://geo.inge.org.uk/grease-vervet.php)
 * [Intercepting Page Load](https://developer.mozilla.org/en-US/docs/XUL/School_tutorial/Intercepting_Page_Loads?redirectlocale=en-US&redirectslug=XUL_School%2FIntercepting_Page_Loads#HTTP_Observers)
 
-### Add-ons SDK is (hopefully) a newer and nicer more high-level way to develop firefox extensions. 
-[Docs](https://addons.mozilla.org/en-US/developers/docs/sdk/1.12/dev-guide/tutorials/mobile.html)
+### Add-ons SDK 
+
+The add-ons SDK is (hopefully) a newer and nicer more high-level way to develop firefox extensions. 
+
+[Mobile add-ons docs](https://addons.mozilla.org/en-US/developers/docs/sdk/1.12/dev-guide/tutorials/mobile.html)
