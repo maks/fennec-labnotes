@@ -18,3 +18,9 @@
 The add-ons SDK is (hopefully) a newer and nicer more high-level way to develop firefox extensions. 
 
 [Mobile add-ons docs](https://addons.mozilla.org/en-US/developers/docs/sdk/1.12/dev-guide/tutorials/mobile.html)
+
+*NOTE:* make sure you are using the latest stable SDK to match the latest version of Firefox for Android otherwise you may get errors trying to run your add-on xpi using cfx tool or the generated xpi may have strange errors with globals not being defined in content script scope, etc.
+
+### Communication between content scripts and normal html pages in Add-on SDK based extensions
+
+This is documented [here]() 
