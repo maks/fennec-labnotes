@@ -5,6 +5,16 @@
 * [Instructions on getting source, setting up build env, build steps etc](https://wiki.mozilla.org/Mobile/Fennec/Android)
 * [Useful architecture info about Firefox on Android](https://wiki.mozilla.org/Fennec/NativeUI)
 
+### Hg Sidebar
+
+Firefox is stored in Hg (mercurial). So some useful Hg commands:
+``` 
+hg pull && hg update #to get the latest code
+hg status # same as git
+hg diff # same as git 
+hg revert --all ## DISCARD all changes since last commit
+```
+
 ## Java side activity
 
 Firefoxes android app manifest is in ```mobile/android/base/AndroidManifest.xml.in```
@@ -15,6 +25,10 @@ But there is also WebApp which again just subclasses WebAppImpl which implements
 
 There are also a bunch of extra activities (eg. awesomebar, settings) and services (eg. password provider, notification provider, etc) that we probably need to strip-out down the track.
 
+### Custom Activity
+
+* So we implement our own subclass on WebAppImpl (OpesignApp.java)
+* We add it to AndroidManifest.xml attached to the intent Action ```au.com.sct.opensign.FFWEBVIEW``` the url should be the Intents data attribute.
 
 
 
