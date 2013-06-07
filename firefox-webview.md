@@ -1,4 +1,4 @@
-# Using Firefox as a webview
+# Modifying stock Firefox to work as a webview aka Opensign-view
 
 ## Building Firefox for Android (aka Fennec)
 
@@ -27,8 +27,12 @@ There are also a bunch of extra activities (eg. awesomebar, settings) and servic
 
 ### Custom Activity
 
-* So we implement our own subclass on WebAppImpl (OpesignApp.java)
+* So we implement our own subclass on GeckoApp (OpensignApp.java)
 * We add it to AndroidManifest.xml attached to the intent Action ```au.com.sct.opensign.FFWEBVIEW``` the url should be the Intents data attribute.
+
+### Bugs
+
+* [no audio playback](https://bugzilla.mozilla.org/show_bug.cgi?id=879651)
 
 
 
