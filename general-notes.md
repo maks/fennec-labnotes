@@ -13,6 +13,10 @@
 * [Intercepting Page Load](https://developer.mozilla.org/en-US/docs/XUL/School_tutorial/Intercepting_Page_Loads?redirectlocale=en-US&redirectslug=XUL_School%2FIntercepting_Page_Loads#HTTP_Observers)
 * [Intercepting http responses with addon SDK Q&A](stackoverflow.com/questions/7812604/firefox-extension-observing-response)
 
+## Useful Moz links
+
+* [Tinderbox - Moz's CI Service](https://tbpl.mozilla.org/)
+
 ### Add-ons SDK 
 
 The add-ons SDK is (hopefully) a newer and nicer more high-level way to develop firefox extensions. 
