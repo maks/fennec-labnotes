@@ -62,3 +62,7 @@ nsCOMPtr<nsIPrefBranch> prefs = do_GetService(NS_PREFSERVICE_CONTRACTID);
         return val;
     }
 ```
+
+__Now how does Java code set Firefox prefs?__
+
+Once we actually have something working in FF this should be a simple way to test it: http://stackoverflow.com/questions/724599/setting-up-an-apache-proxy-with-authentication
