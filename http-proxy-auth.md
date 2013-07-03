@@ -15,6 +15,11 @@ SetProxyCredentials() in line 1312 of nsHttpChannelAuthProvider.cpp seems to be 
 
 ### Now how to get proxy username, password into there?
 
+## Using FF Prefs
+
+mobile prefs in: mobile/android/app/mobile.js
+
+
 something like this might work via using prefs:
 ```
 static const char kAllowProxies[] = "network.automatic-ntlm-auth.allow-proxies";
