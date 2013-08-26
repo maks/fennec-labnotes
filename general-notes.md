@@ -30,10 +30,18 @@ The add-ons SDK is (hopefully) a newer and nicer more high-level way to develop 
 
 *NOTE:* make sure you are using the latest stable SDK to match the latest version of Firefox for Android otherwise you may get errors trying to run your add-on xpi using cfx tool or the generated xpi may have strange errors with globals not being defined in content script scope, etc.
 
-### Budnling XPIs (addons) in Fennec APK
+### Bundling XPIs (addons) in Fennec APK
 
 [see this bug](https://bugzilla.mozilla.org/show_bug.cgi?id=754312)
 
 ### Communication between content scripts and normal html pages in Add-on SDK based extensions
 
 This is documented [here](???) 
+
+### Capturing JS output
+
+The [ConsoleService](https://developer.mozilla.org/en-US/docs/Console_service) provides the means to listen to all the output from executing
+JS content as well as other logging output (eg. CSS warnings/errors etc) that would normally be visible in the browsers output "console".
+Thus capturing the console output can be done as a fennec addon and [here is an example of this](https://github.com/wesj/error-console-fxandroid/blob/master/chrome/console.html).
+
+But how to get this captured output then out to an external android component, such as a logging service?
