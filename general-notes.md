@@ -19,12 +19,21 @@
 
 ### Add-ons SDK 
 
+## Basics
+
+* need to create install.rdf and bootstrap.js [as per](https://developer.mozilla.org/en-US/docs/Extensions/Mobile/Walkthrough)
+* **BUG** When testing on a android device beware of [this bug](https://bugzilla.mozilla.org/show_bug.cgi?id=762648) which prevents installing the extension xpi from sdcard.
+
 The add-ons SDK is (hopefully) a newer and nicer more high-level way to develop firefox extensions. 
 
 [Mobile add-ons docs](https://addons.mozilla.org/en-US/developers/docs/sdk/1.12/dev-guide/tutorials/mobile.html)
 
 *NOTE:* make sure you are using the latest stable SDK to match the latest version of Firefox for Android otherwise you may get errors trying to run your add-on xpi using cfx tool or the generated xpi may have strange errors with globals not being defined in content script scope, etc.
 
+### Budnling XPIs (addons) in Fennec APK
+
+[see this bug](https://bugzilla.mozilla.org/show_bug.cgi?id=754312)
+
 ### Communication between content scripts and normal html pages in Add-on SDK based extensions
 
-This is documented [here]() 
+This is documented [here](???) 
