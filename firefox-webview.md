@@ -27,8 +27,8 @@ There are also a bunch of extra activities (eg. awesomebar, settings) and servic
 
 ### Custom Activity
 
-* So we implement our own subclass on GeckoApp (OpensignApp.java)
-* We add it to AndroidManifest.xml attached to the intent Action ```au.com.sct.opensign.FFWEBVIEW``` the url should be the Intents data attribute.
+* So we implement our own subclass on GeckoApp 
+* We add it to AndroidManifest.xml attached to an custom intent Action (eg. foo.bar.SHOW_CUSTOM_FENNEC"), the url should be the Intents data attribute.
 
 ### Open Fennec with url via Intent
 
